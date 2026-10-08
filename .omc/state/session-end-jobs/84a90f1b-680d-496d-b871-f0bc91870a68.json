@@ -1,0 +1,376 @@
+{
+  "version": 1,
+  "jobId": "0101deb8-4233-4548-bf4f-72d1d05bc83d",
+  "sessionId": "84a90f1b-680d-496d-b871-f0bc91870a68",
+  "scopeKey": "87c0a8e89370074febcb0131c29d2e3b9b54dad9950f66b18e3b4da07ec0f63c",
+  "revision": 66,
+  "createdAt": "2026-10-08T10:48:34.623Z",
+  "updatedAt": "2026-10-08T10:49:05.636Z",
+  "producerGraceExpiresAt": "2026-10-08T10:49:04.624Z",
+  "bestEffortDeadlineAt": "2026-10-08T10:49:57.624Z",
+  "producers": {
+    "core": {
+      "state": "sealed",
+      "intentKey": "f3937ab779765eceeffc0a2e3599e4ddae787cc5a11e854c7974f44034f590e4",
+      "payloadDigest": "f3937ab779765eceeffc0a2e3599e4ddae787cc5a11e854c7974f44034f590e4",
+      "sealedAt": "2026-10-08T10:49:04.809Z",
+      "sealedBy": "recovery"
+    },
+    "wiki": {
+      "state": "no-op",
+      "sealedAt": "2026-10-08T10:48:34.648Z",
+      "sealedBy": "wiki-producer"
+    }
+  },
+  "actions": {
+    "foreground-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "6267982c96b23e2996013a41f7ba5d579fe731c7350bff1cf073f685ec218af8",
+      "payload": {
+        "transcriptPath": "/home/pratham/.claude/projects/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68.jsonl",
+        "cwd": "/home/pratham/Documents/Claude Projects/expense-tracker/expense-tracker",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "84a90f1b-680d-496d-b871-f0bc91870a68",
+          "transcript_path": "/home/pratham/.claude/projects/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68.jsonl",
+          "cwd": "/home/pratham/Documents/Claude Projects/expense-tracker/expense-tracker",
+          "scratchpad_dir": "/tmp/claude-1000/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68/scratchpad",
+          "prompt_id": "161839b7-90df-416c-9fc4-fcc84bf25efc",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {},
+        "metrics": {
+          "session_id": "84a90f1b-680d-496d-b871-f0bc91870a68",
+          "ended_at": "2026-10-08T10:49:04.750Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        }
+      },
+      "budgetMs": 9000,
+      "claimedAt": "2026-10-08T10:49:04.667Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "78d8930c-5935-4553-94da-8e132b555ea6",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-08T10:49:14.631Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-08T10:49:04.806Z"
+    },
+    "wiki-capture": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 0,
+      "idempotencyKey": "bd2115e8e8c18defc200134629f4d08de1f25f7a422c5056130df2fe59be6684",
+      "payload": {
+        "transcriptPath": "/home/pratham/.claude/projects/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68.jsonl",
+        "cwd": "/home/pratham/Documents/Claude Projects/expense-tracker/expense-tracker",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "84a90f1b-680d-496d-b871-f0bc91870a68",
+          "transcript_path": "/home/pratham/.claude/projects/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68.jsonl",
+          "cwd": "/home/pratham/Documents/Claude Projects/expense-tracker/expense-tracker",
+          "scratchpad_dir": "/tmp/claude-1000/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68/scratchpad",
+          "prompt_id": "161839b7-90df-416c-9fc4-fcc84bf25efc",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {}
+      },
+      "budgetMs": 9000,
+      "completedAt": "2026-10-08T10:48:34.648Z"
+    },
+    "team-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "5d64554b959a9f0a1e078c72e1919cdfdc2d1a2061337404ebc16fea6fd4f89e",
+      "payload": {
+        "transcriptPath": "/home/pratham/.claude/projects/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68.jsonl",
+        "cwd": "/home/pratham/Documents/Claude Projects/expense-tracker/expense-tracker",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "84a90f1b-680d-496d-b871-f0bc91870a68",
+          "transcript_path": "/home/pratham/.claude/projects/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68.jsonl",
+          "cwd": "/home/pratham/Documents/Claude Projects/expense-tracker/expense-tracker",
+          "scratchpad_dir": "/tmp/claude-1000/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68/scratchpad",
+          "prompt_id": "161839b7-90df-416c-9fc4-fcc84bf25efc",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {},
+        "metrics": {
+          "session_id": "84a90f1b-680d-496d-b871-f0bc91870a68",
+          "ended_at": "2026-10-08T10:49:04.750Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        }
+      },
+      "budgetMs": 9000,
+      "claimedAt": "2026-10-08T10:49:04.819Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "fc64210d-75a6-4fa9-843a-434474315bc1",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-08T10:49:14.631Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-08T10:49:04.920Z"
+    },
+    "python-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "0e442ef4c83b2dacb926531f87e32d7760fd539f4e0b3afb8ab15f8a07c4249f",
+      "payload": {
+        "transcriptPath": "/home/pratham/.claude/projects/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68.jsonl",
+        "cwd": "/home/pratham/Documents/Claude Projects/expense-tracker/expense-tracker",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "84a90f1b-680d-496d-b871-f0bc91870a68",
+          "transcript_path": "/home/pratham/.claude/projects/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68.jsonl",
+          "cwd": "/home/pratham/Documents/Claude Projects/expense-tracker/expense-tracker",
+          "scratchpad_dir": "/tmp/claude-1000/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68/scratchpad",
+          "prompt_id": "161839b7-90df-416c-9fc4-fcc84bf25efc",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {},
+        "metrics": {
+          "session_id": "84a90f1b-680d-496d-b871-f0bc91870a68",
+          "ended_at": "2026-10-08T10:49:04.750Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        }
+      },
+      "budgetMs": 9000,
+      "claimedAt": "2026-10-08T10:49:04.927Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "1147833f-161c-4e48-8834-6f022600ed5d",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-08T10:49:14.631Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-08T10:49:05.038Z"
+    },
+    "reply-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "306e7dc6b24962a4654a3039205c75393cff7cc5fa2c620e1f5b5ea76b7ac0bc",
+      "payload": {
+        "transcriptPath": "/home/pratham/.claude/projects/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68.jsonl",
+        "cwd": "/home/pratham/Documents/Claude Projects/expense-tracker/expense-tracker",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "84a90f1b-680d-496d-b871-f0bc91870a68",
+          "transcript_path": "/home/pratham/.claude/projects/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68.jsonl",
+          "cwd": "/home/pratham/Documents/Claude Projects/expense-tracker/expense-tracker",
+          "scratchpad_dir": "/tmp/claude-1000/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68/scratchpad",
+          "prompt_id": "161839b7-90df-416c-9fc4-fcc84bf25efc",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {}
+      },
+      "budgetMs": 9000,
+      "claimedAt": "2026-10-08T10:49:05.047Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "d4079b10-8f87-4ebe-91bf-761db7e80a93",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-08T10:49:14.631Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-08T10:49:05.189Z"
+    },
+    "callback": {
+      "class": "best-effort",
+      "phase": "deferred-best-effort",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "add70c7fd91199d8ce89f2753e789c1cd0026c44370ad5ccb4dd94bf7a2f5a73",
+      "payload": {
+        "transcriptPath": "/home/pratham/.claude/projects/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68.jsonl",
+        "cwd": "/home/pratham/Documents/Claude Projects/expense-tracker/expense-tracker",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "84a90f1b-680d-496d-b871-f0bc91870a68",
+          "transcript_path": "/home/pratham/.claude/projects/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68.jsonl",
+          "cwd": "/home/pratham/Documents/Claude Projects/expense-tracker/expense-tracker",
+          "scratchpad_dir": "/tmp/claude-1000/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68/scratchpad",
+          "prompt_id": "161839b7-90df-416c-9fc4-fcc84bf25efc",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {},
+        "metrics": {
+          "session_id": "84a90f1b-680d-496d-b871-f0bc91870a68",
+          "ended_at": "2026-10-08T10:49:04.750Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        }
+      },
+      "budgetMs": 2000,
+      "claimedAt": "2026-10-08T10:49:05.197Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "ebeef8c7-96c8-4f4c-908e-0901e39c32cc",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-08T10:49:14.631Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-08T10:49:05.301Z"
+    },
+    "notification": {
+      "class": "best-effort",
+      "phase": "deferred-best-effort",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "fc1ab37fc1a814d062e86045a444d0ccdc18e4dea299bdecd8eaa798c7058cda",
+      "payload": {
+        "transcriptPath": "/home/pratham/.claude/projects/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68.jsonl",
+        "cwd": "/home/pratham/Documents/Claude Projects/expense-tracker/expense-tracker",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "84a90f1b-680d-496d-b871-f0bc91870a68",
+          "transcript_path": "/home/pratham/.claude/projects/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68.jsonl",
+          "cwd": "/home/pratham/Documents/Claude Projects/expense-tracker/expense-tracker",
+          "scratchpad_dir": "/tmp/claude-1000/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68/scratchpad",
+          "prompt_id": "161839b7-90df-416c-9fc4-fcc84bf25efc",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {},
+        "metrics": {
+          "session_id": "84a90f1b-680d-496d-b871-f0bc91870a68",
+          "ended_at": "2026-10-08T10:49:04.750Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        }
+      },
+      "budgetMs": 2000,
+      "claimedAt": "2026-10-08T10:49:05.309Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "9b4a18b2-704f-4b79-b666-5fe686de3ace",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-08T10:49:14.631Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-08T10:49:05.408Z"
+    },
+    "openclaw": {
+      "class": "best-effort",
+      "phase": "deferred-best-effort",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "119d87bc815d678be36aab6a9bacf90acd05fd81351fb8a4b0d7de270cbcfa8b",
+      "payload": {
+        "transcriptPath": "/home/pratham/.claude/projects/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68.jsonl",
+        "cwd": "/home/pratham/Documents/Claude Projects/expense-tracker/expense-tracker",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "84a90f1b-680d-496d-b871-f0bc91870a68",
+          "transcript_path": "/home/pratham/.claude/projects/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68.jsonl",
+          "cwd": "/home/pratham/Documents/Claude Projects/expense-tracker/expense-tracker",
+          "scratchpad_dir": "/tmp/claude-1000/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68/scratchpad",
+          "prompt_id": "161839b7-90df-416c-9fc4-fcc84bf25efc",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {},
+        "metrics": {
+          "session_id": "84a90f1b-680d-496d-b871-f0bc91870a68",
+          "ended_at": "2026-10-08T10:49:04.750Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        }
+      },
+      "budgetMs": 2000,
+      "claimedAt": "2026-10-08T10:49:05.415Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "9e0851f8-15c3-433d-939c-78f6ac374027",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-08T10:49:14.631Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-08T10:49:05.515Z"
+    },
+    "spawn-next": {
+      "class": "best-effort",
+      "phase": "deferred-best-effort",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "e0d46f29827dd66af32e4d40d174ef70403b1cbfe8c3c8908c52074a0b4ce8d5",
+      "payload": {
+        "transcriptPath": "/home/pratham/.claude/projects/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68.jsonl",
+        "cwd": "/home/pratham/Documents/Claude Projects/expense-tracker/expense-tracker",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "84a90f1b-680d-496d-b871-f0bc91870a68",
+          "transcript_path": "/home/pratham/.claude/projects/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68.jsonl",
+          "cwd": "/home/pratham/Documents/Claude Projects/expense-tracker/expense-tracker",
+          "scratchpad_dir": "/tmp/claude-1000/-home-pratham-Documents-Claude-Projects-expense-tracker-expense-tracker/84a90f1b-680d-496d-b871-f0bc91870a68/scratchpad",
+          "prompt_id": "161839b7-90df-416c-9fc4-fcc84bf25efc",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {}
+      },
+      "budgetMs": 2000,
+      "claimedAt": "2026-10-08T10:49:05.522Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "477c4e52-0358-46bf-8f6b-1b08c6d52d89",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-08T10:49:14.631Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-08T10:49:05.623Z"
+    }
+  },
+  "owner": null,
+  "phase": "complete",
+  "recoverableFailure": {
+    "reason": "actions-settled",
+    "releasedAt": "2026-10-08T10:49:05.629Z",
+    "ownerNonce": "c57f5b56-ce15-43a6-8420-ffd56e8e3384"
+  },
+  "completion": {
+    "completedAt": "2026-10-08T10:49:05.629Z",
+    "terminalDigest": "a6ec6d55e1b610282ba5f9b7c370973540d170179a54ea9bed62a636eb9366f0",
+    "terminalRevision": 65
+  }
+}
